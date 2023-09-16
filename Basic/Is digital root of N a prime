@@ -1,0 +1,30 @@
+<h2><a href="https://practice.geeksforgeeks.org/problems/is-digital-root-of-n-a-prime2522/1">Is digital root of N a prime?</a></h2><h3>Difficulty Level : Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given a number N, you need to find if its digital root is prime or not. DigitalRoot of a number is the repetitive sum of its digits until we get a single-digit number.<br>
+Eg.DigitalRoot(191)=1+9+1=&gt;11=&gt;1+1=&gt;2</span></p>
+
+<p><span style="font-size:18px"><strong>Example 1:</strong></span></p>
+
+<pre><span style="font-size:18px"><strong>Input:</strong>
+N = 89</span>
+<span style="font-size:18px"><strong>Output:</strong>
+0</span>
+<span style="font-size:18px"><strong>Explanation:</strong>
+DigitalRoot(89)=&gt;17=&gt;1+7=&gt;8; not a prime.</span></pre>
+
+<p><strong><span style="font-size:18px">Example 2:</span></strong></p>
+
+<pre><span style="font-size:18px"><strong>Input:</strong>
+N = 12</span>
+<span style="font-size:18px"><strong>Output:</strong>
+1</span>
+<span style="font-size:18px"><strong>Explanation:</strong>
+DigitalRoot(12)=&gt;1+2=&gt;3; a prime number.</span></pre>
+
+<p><span style="font-size:18px"><strong>Your Task:&nbsp;&nbsp;</strong><br>
+You don't need to read input or print anything. Your task is to complete the function&nbsp;<strong>digitalRoot()</strong>&nbsp;which takes an integer N as an input parameter and return 1 if its digital root is a prime number otherwise return 0.<br>
+<br>
+<strong>Expected Time Complexity:</strong>&nbsp;O(1)<br>
+<strong>Expected Auxiliary Space:</strong>&nbsp;O(1)</span></p>
+
+<p><span style="font-size:18px"><strong>Constraints:</strong><br>
+1 &lt;= N &lt;= 10<sup>4</sup></span></p>
+</div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Mathematical</code>&nbsp;<code>Algorithms</code>&nbsp;
